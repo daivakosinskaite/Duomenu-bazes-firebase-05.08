@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Vanilla JavaScript and Firebase CRUD project</h1>
+        <div class="form">
+
+            <div class="column1">
+                <label for="productCodeInput">Product code</label><br><br>
+                <input id="productCodeInput" type="number" placeholder="only numbers"> <br><br>
+                <label for="productNameInput">Product Name</label><br><br>
+                <input id="productNameInput" type="text"> <br><br>
+                <label for="productQuantityInput">Product Quantity</label><br><br>
+                <input id="productQuantityInput" type="number"><br><br><br>
+
+                <div class="buttons1">
+                    <button id="btnInsert">Insert into DB</button>
+                    <button id="btnUpdate"> Update where</button>
+                    <button id="btnDelete">Delete from DB</button>
+                </div>
+            </div>
+
+            <div class="column2">
+                <div class="part1">
+                    <h3>Find product by Code</h3> <br><br>
+                </div>
+
+                <div class="part2">
+                    <label for="productCodeInput2">Product code</label><br><br>
+                    <input id="productCodeInput2" type="number" placeholder="only numbers"><br><br>
+                </div>
+
+                <button id="btnSelect">Select from DB</button> <br><br><br>
+
+
+                <ul id="selectView">
+
+                </ul>
+
+
+
+
+
+            </div>
+
+        </div>
+
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
